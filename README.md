@@ -1,4 +1,4 @@
-# Nautilus Game : Unity Assessment
+# Nautilus Game
 
 ### 🦑🕹️ Description 
 Thank you for reviewing my Unity Assessment, instructions to build are below including more information on the API and the client. The primary goal was to build a service that allows `Players to add feedback to a game a session` and for 
