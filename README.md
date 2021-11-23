@@ -1,7 +1,7 @@
 # Nautilus Game
 
 ### 🦑🕹️ Description 
-Thank you for reviewing my Unity Assessment, instructions to build are below including more information on the API and the client. The primary goal was to build a service that allows `Players to add feedback to a game a session` and for 
+Instructions to build are below including more information on the API and the client. The primary goal was to build a service that allows `Players to add feedback to a game a session` and for 
 `Ops team members to see recent feedback left by players, allowing filtering by rating`. 
 
 
@@ -80,7 +80,7 @@ Authentication is fairly straightforward with JWT (JSON Web Token) format for de
 
 The Link and Feedback API are implemented as such because of the following expected use case.
 
-0) Game Developer using Unity wants to collect feedback on their new rendition of Squid Game.
+0) Game Developers wants to collect feedback on their new rendition of Squid Game.
 1) Using this API the developer provides their games `name`, the game `session` they are tracking, and the `userId` of whom they would like the feedback from.
 2) At the end of the developer's users game, they are provided with a `Link` with the above developer provided params.
 3) The Link then forwards the developer's users to this api's client where the rest of the feedback can be completed.
@@ -93,9 +93,6 @@ i.e. `User A has access to User N's feedback`
 2) JEST getting into the habit of testing and validating endpoints for the API and the client is very important. In fact some input validation is missing on the client side registration. 
 3) Need to update credentials as environment variables used for tokenization on the backend. 
 
-### Final Comments
-
-Thank you for taking the time to review my test. My ultimate goal was to build something not too-big and not too-small using technologies pertinent to the Full Stack Developer role at Unity while also show casing my thought process in design for the given developed service.
 
 Thank you!
 Justin Crisp
